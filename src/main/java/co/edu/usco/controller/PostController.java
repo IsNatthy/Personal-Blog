@@ -9,7 +9,7 @@ import co.edu.usco.service.PostService;
 import org.springframework.ui.Model;
 
 @Controller
-@RequestMapping("/post")
+@RequestMapping("/posts")
 public class PostController {
 
     @Autowired
