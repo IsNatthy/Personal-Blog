@@ -27,9 +27,9 @@ public interface UserService {
     /**
      * Retrieves a user by their username.
      *
-     * @param email the email of the user to be retrieved
+     * @param username the username of the user to be retrieved
      * @return an Optional containing the found user entity, or empty if not found
      */
-    Optional<UserEntity> getUserByUsername(String email);
+    Optional<UserEntity> getUserByUsername(String username);
 
 }
